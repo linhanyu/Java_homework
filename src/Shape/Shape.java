@@ -55,6 +55,9 @@ class Circle extends Shape{
     void print_Shape(){
             System.out.print("centre:" + Centre + " R:" + R + "\n");
     }
+    void girlfriend(){
+        System.out.print("好想要个女朋友啊");
+    }
 }
 
 
@@ -95,6 +98,10 @@ class Triangle extends Angle{
 
     }
 
+    void girlfriend(){
+        System.out.print("好想要个女朋友啊");
+    }
+
 }
 class Recangle extends Angle{
     Recangle(int ...args){
@@ -117,4 +124,7 @@ class Recangle extends Angle{
 
     }
 
+    void angry(){
+        System.out.print("为什么我没有女朋友!");
+    }
 }
